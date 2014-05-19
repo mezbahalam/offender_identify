@@ -37,7 +37,7 @@ gem 'rmagick', '2.13.2'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'protected_attributes'
 gem "active_admin_import", "2.1.0"
-gem 'will_paginate', '3.0.5'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

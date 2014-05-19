@@ -6,7 +6,7 @@ class OffendersController < ApplicationController
   # GET /offenders.json
   def index
     @search = Offender.search(params[:q])
-    @offenders= @search.result.paginate(:page => params[:page], :per_page => 5)
+    @offenders= @search
     @search.build_condition
   end
 
